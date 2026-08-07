@@ -1,0 +1,15 @@
+{
+	"common": {
+		"confirm": "Confirm",
+		"deny": "Deny",
+		"cancel": "Cancel",
+		"submit": "Submit",
+		"yes": "Yes",
+		"no": "No",
+		"agree": "Agree",
+		"disagree": "Disagree",
+		"signin": "Sign In",
+		"signup": "Sign Up",
+		"signout": "Sign Out"
+	}
+}

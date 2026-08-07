@@ -1,0 +1,47 @@
+{
+	"name": "nuxt-logto-template",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"lint": "eslint .",
+		"typecheck": "nuxt typecheck",
+		"db:migrate": "drizzle-kit migrate",
+		"db:generate": "drizzle-kit generate",
+		"db:push": "drizzle-kit push",
+		"db:pull": "drizzle-kit pull",
+		"db:studio": "drizzle-kit studio"
+	},
+	"dependencies": {
+		"@comark/nuxt": "0.6.0",
+		"@electric-sql/pglite": "^0.5.4",
+		"@iconify-json/simple-icons": "^1.2.93",
+		"@logto/nuxt": "1.2.10",
+		"@nuxt/image": "2.1.0",
+		"@nuxt/ui": "^4.10.0",
+		"@nuxthub/core": "0.10.8",
+		"@nuxtjs/i18n": "10.6.0",
+		"@type32/nuxt-cs-utils": "^2.0.5",
+		"@type32/logto-nuxt-utils": "^0.1.7",
+		"@vueuse/nuxt": "14.4.0",
+		"aws4fetch": "^1.0.20",
+		"drizzle-orm": "1.0.0-rc.4",
+		"motion-v": "^2.3.0",
+		"nuxt": "^4.5.2",
+		"nuxt-authorization": "^0.3.5",
+		"nuxt-security": "2.6.0",
+		"postgres": "^3.4.9",
+		"tailwindcss": "^4.3.3",
+		"vue": "^3.5.41",
+		"zod": "^4.4.3"
+	},
+	"devDependencies": {
+		"@iconify-json/lucide": "^1.2.121",
+		"drizzle-kit": "1.0.0-rc.4",
+		"typescript": "6.0.3",
+		"vue-tsc": "^3.3.9"
+	}
+}

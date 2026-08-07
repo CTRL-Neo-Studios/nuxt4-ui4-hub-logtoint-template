@@ -1,0 +1,15 @@
+{
+	"common": {
+		"confirm": "确认",
+		"deny": "拒绝",
+		"cancel": "取消",
+		"submit": "提交",
+		"yes": "是",
+		"no": "否",
+		"agree": "同意",
+		"disagree": "不同意",
+		"signin": "登录",
+		"signup": "注册",
+		"signout": "登出"
+	}
+}
