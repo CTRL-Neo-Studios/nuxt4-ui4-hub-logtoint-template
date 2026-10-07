@@ -4,6 +4,7 @@ import {UserScope} from "@logto/nuxt";
 export default defineNuxtConfig({
 	modules: [
 		'@nuxt/ui',
+		'@type32/nuxt-ui-extras',
 		'@comark/nuxt',
 		'@nuxt/image',
 		'@logto/nuxt',
@@ -16,8 +17,6 @@ export default defineNuxtConfig({
 		'motion-v/nuxt',
 		'@type32/logto-nuxt-utils',
 	],
-
-	extends: [['github:CTRL-Neo-Studios/nuxt-ui-extras#dev', {install: true}]],
 
 	app: {
 		pageTransition: {name: 'page', mode: 'out-in'},
